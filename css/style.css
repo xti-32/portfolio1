@@ -1,0 +1,70 @@
+@font-face {
+    font-family: Roboto-Light;
+    src: url(../fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@keyframes wiki {
+	0% {
+		opacity: 0;
+		transform: translateX(-50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+.header{
+    background: linear-gradient(270deg, rgba(31,247,249,1) 0%, rgba(0,86,255,1) 100%);
+    padding: 50px;
+    align-items: center;
+    font-family: Roboto-Light;
+}
+.tux{
+margin: 0;
+align-items: center;
+}
+
+.wiki{
+    margin: 10px;
+    font-family: Roboto-Regular;
+}
+
+.wiki1{
+    animation: wiki 1s ease 0s 1 normal forwards;
+}
+
+.wiki2{
+    animation: wiki 2s ease 0s 1 normal forwards;
+}
+
+.wiki3{
+    animation: wiki 3s ease 0s 1 normal forwards;
+}
+.advantage{
+    background-color: #e6e6e6;
+}
+.adv{
+    margin: 10px;
+    font-family: Roboto-Light;
+}
+
+.adv01{
+    font-family: Roboto-Regular;
+    font-size:larger;
+}
+
+.distro{
+    background: linear-gradient(270deg, rgba(31,247,249,1) 0%, rgba(0,86,255,1) 100%);
+    width: 100%;
+}
+
+.distr-gr{
+    background-color: #e6e6e6;
+}
